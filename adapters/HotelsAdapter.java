@@ -60,8 +60,7 @@ public class HotelsAdapter  extends RecyclerView.Adapter<HotelsAdapter.MyViewHol
         holder.count.setText(visit.getShortDescription());
         imageLoader.get(visit.getKeyImageUrl(), ImageLoader.getImageListener(
                 holder.thumbnail, R.drawable.loading, R.drawable.loading));
-       /* // loading album cover using Glide library
-        Glide.with(mContext).load(album.getThumbnail()).into(holder.thumbnail);*/
+
 
     }
 

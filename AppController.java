@@ -17,6 +17,7 @@ public class AppController  extends Application {
 
     public static final String TAG = AppController.class
             .getSimpleName();
+    public static int pagination=0,NUMBER_OF_PHOTOS=20;
 
     private RequestQueue mRequestQueue;
     private ImageLoader mImageLoader;
